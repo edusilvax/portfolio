@@ -156,13 +156,6 @@ header nav ul li:first-child a{
     flex-direction: column;
     align-items: center;
 }
-
-.s-featured-cards .cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 33px 44px;
-}
-
 .s-featured-cards h4 {
     margin-bottom: 5.6rem;
     font-weight: 600;
@@ -172,9 +165,18 @@ header nav ul li:first-child a{
     color: var(--text-main);
 }
 
+.s-featured-cards .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2%;
+    justify-content: center;
+}
+
+
+
 .s-featured-cards .card {
-    max-width: 262px;
-    height: 269px;
+    max-width: 242px;
+    height: 259px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
     display: flex;
