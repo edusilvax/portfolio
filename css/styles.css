@@ -272,7 +272,7 @@ header nav ul li:first-child a{
     color: #E2E2E2;
 }
 
-.s-contact .form {
+#form {
     display: flex;
     flex-direction: column;
 }
@@ -282,12 +282,12 @@ header nav ul li:first-child a{
     
 }
 
-.s-contact .form label:first-child {
+#form label:first-child {
     margin: 4.7rem 0 6px 0;
     color: #E2E2E2;
 }
 
-.s-contact .form input, .s-contact .form textarea {
+#form input, #form textarea {
     width: 100%;
     max-width: 427px;
     height: 48px;
@@ -298,7 +298,7 @@ header nav ul li:first-child a{
     margin-bottom: 4rem;
 }
 
-.s-contact .form textarea {
+#form textarea {
     height: 217px;
     padding-top: 1rem;
 }
