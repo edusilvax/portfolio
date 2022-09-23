@@ -102,13 +102,6 @@ header nav ul li:first-child a{
     align-items: center;
 }
 
-.s-about .text h4 {
-    font-weight: 600;
-    font-size: 2.4rem;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    color: var(--text-main);
-}
 
 .s-about .text h2 {
     font-family: 'Nunito';
@@ -118,17 +111,19 @@ header nav ul li:first-child a{
     letter-spacing: 0.003em;
     color: var(--text-main);
     margin-top: 2rem;
-    margin-bottom: 7.4rem;
+    margin-bottom: 4rem;
 }
 
 .s-about .content {
     display: flex;
+    align-items: flex-start;
 }
 
 .s-about .content .right-area{
     display: flex;
     flex-direction: column;
-    margin-left: 10rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
 
 .s-about .right-area p{
@@ -137,11 +132,11 @@ header nav ul li:first-child a{
     line-height: 32px;
     letter-spacing: 0.01em;
     color: var(--text-main);
-    margin-bottom: 6.8rem;
+    margin-bottom: 4.8rem;
 }
 
 .s-about .social-medias img:first-child{
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 
 /*s-featured-cards*/
@@ -245,44 +240,94 @@ header nav ul li:first-child a{
 
 /*s-contact*/
 .s-contact {
-    padding: 18.5rem 0 27.3rem 0;
-    background-image: url(../img/contact-background.png);
-    background-repeat: no-repeat;
-    background-position: 780px 200px;
+    padding: 12.5rem 0 27.3rem 0;
+}
+
+/*.s-contact .left-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+
+.s-contact .container { 
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .s-contact h2 {
-    max-width: 54.2rem;
-    font-family: 'Nunito',sans-serif;
-    font-weight: 700;
-    font-size: 5.5rem;
-    line-height: 7.5rem;
-    letter-spacing: 0.003em;
-    color: var(--text-main);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    color: #E2E2E2;
 }
 
 .s-contact p {
-    margin: 2.3rem 0 0.9rem 0;
+    font-family: 'Quicksand';
+    margin-top: 1.5rem;
+    max-width: 578px;;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    letter-spacing: 0.01em;
-    color: var(--text-main);
+    font-size: 16px;
+    line-height: 18px;
+    color: #E2E2E2;
 }
 
-.s-contact .contact{
+.s-contact .form {
     display: flex;
     flex-direction: column;
 }
 
-.s-contact .contact a {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    letter-spacing: 0.01em;
-    color: var(--text-main);
+.s-contact .btn-primary {
+    width: 427px;
+    
 }
 
+.s-contact .form label:first-child {
+    margin: 4.7rem 0 6px 0;
+    color: #E2E2E2;
+}
+
+.s-contact .form input, .s-contact .form textarea {
+    width: 100%;
+    max-width: 427px;
+    height: 48px;
+    background: #F4F4F4;
+    border-bottom: 2px solid #C0C0C0;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 13px;
+    margin-bottom: 4rem;
+}
+
+.s-contact .form textarea {
+    height: 217px;
+    padding-top: 1rem;
+}
+
+.s-contact .right-area {
+    padding-top: 8rem;
+}
+.s-contact .right-area h4{
+    font-size: 28px;
+    line-height: 3.9rem;
+    color: #4F4F4F;    
+    margin-left: 8px;
+}
+
+.s-contact .right-area p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #4F4F4F;    
+}
+
+.s-contact .contact-card .icon {
+    display: flex;
+    margin-bottom: 8px;
+}
+.s-contact .contact-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 88px;
+}
 /*footer*/
 
 footer {
